@@ -1,18 +1,19 @@
 //
-//  GreedySnackMVCTests.m
-//  GreedySnackMVCTests
+//  FruitTest.m
+//  GreedySnackMVC
 //
-//  Created by William Wang on 2017/8/22.
+//  Created by William Wang on 2017/8/24.
 //  Copyright © 2017年 William Wang. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "Fruit.h"
 
-@interface GreedySnackMVCTests : XCTestCase
+@interface FruitTest : XCTestCase
 
 @end
 
-@implementation GreedySnackMVCTests
+@implementation FruitTest
 
 - (void)setUp {
     [super setUp];
@@ -24,9 +25,13 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testHit {
+    CGPoint point = CGPointMake(30, 30);
+    Fruit* fruit = [[Fruit alloc] initFruit:point radius:5];
+
+    XCTAssertTrue([fruit isHit:CGPointMake(25, 30) radius:5]);
+    XCTAssertFalse([fruit isHit:CGPointMake(10, 10) radius:5]);
+    
 }
 
 - (void)testPerformanceExample {

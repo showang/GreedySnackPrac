@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267837DAF062B87860F06111 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26783BDF074AFE926C00701D /* GameView.m */; };
 		3467D3831F4C0AF30052AFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3821F4C0AF30052AFED /* main.m */; };
 		3467D3861F4C0AF30052AFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3851F4C0AF30052AFED /* AppDelegate.m */; };
 		3467D3891F4C0AF30052AFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3881F4C0AF30052AFED /* ViewController.m */; };
 		3467D38C1F4C0AF30052AFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3467D38A1F4C0AF30052AFED /* Main.storyboard */; };
 		3467D38E1F4C0AF30052AFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3467D38D1F4C0AF30052AFED /* Assets.xcassets */; };
 		3467D3911F4C0AF30052AFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3467D38F1F4C0AF30052AFED /* LaunchScreen.storyboard */; };
-		3467D39C1F4C0AF30052AFED /* GreedySnackMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D39B1F4C0AF30052AFED /* GreedySnackMVCTests.m */; };
+		3467D3B01F4C14440052AFED /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3A71F4C14440052AFED /* GameMap.m */; };
+		3467D3B11F4C14440052AFED /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3A91F4C14440052AFED /* NSMutableArray+QueueAdditions.m */; };
+		3467D3B21F4C14440052AFED /* GreedySnack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3AB1F4C14440052AFED /* GreedySnack.m */; };
+		3467D3B31F4C14440052AFED /* SnackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3AD1F4C14440052AFED /* SnackNode.m */; };
+		3467D3B41F4C14440052AFED /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3AF1F4C14440052AFED /* Fruit.m */; };
+		3467D3B61F4D3B090052AFED /* GreedySnakeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3B51F4D3B090052AFED /* GreedySnakeTest.m */; };
+		3467D3BB1F4E7C400052AFED /* FruitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467D3BA1F4E7C400052AFED /* FruitTest.m */; };
+		346C0B791F4EADE6007FBE62 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 346C0B781F4EADE6007FBE62 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26783BDF074AFE926C00701D /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		26783DF2CEDB7BDA5DA36C1E /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		3467D37E1F4C0AF30052AFED /* GreedySnackMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreedySnackMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3467D3821F4C0AF30052AFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3467D3841F4C0AF30052AFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,8 +48,20 @@
 		3467D3901F4C0AF30052AFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3467D3921F4C0AF30052AFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3467D3971F4C0AF30052AFED /* GreedySnackMVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreedySnackMVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3467D39B1F4C0AF30052AFED /* GreedySnackMVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreedySnackMVCTests.m; sourceTree = "<group>"; };
 		3467D39D1F4C0AF30052AFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3467D3A61F4C14440052AFED /* GameMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap.h; sourceTree = "<group>"; };
+		3467D3A71F4C14440052AFED /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
+		3467D3A81F4C14440052AFED /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		3467D3A91F4C14440052AFED /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		3467D3AA1F4C14440052AFED /* GreedySnack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreedySnack.h; sourceTree = "<group>"; };
+		3467D3AB1F4C14440052AFED /* GreedySnack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreedySnack.m; sourceTree = "<group>"; };
+		3467D3AC1F4C14440052AFED /* SnackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnackNode.h; sourceTree = "<group>"; };
+		3467D3AD1F4C14440052AFED /* SnackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnackNode.m; sourceTree = "<group>"; };
+		3467D3AE1F4C14440052AFED /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		3467D3AF1F4C14440052AFED /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		3467D3B51F4D3B090052AFED /* GreedySnakeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreedySnakeTest.m; sourceTree = "<group>"; };
+		3467D3BA1F4E7C400052AFED /* FruitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitTest.m; sourceTree = "<group>"; };
+		346C0B781F4EADE6007FBE62 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = include/libOCMock.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346C0B791F4EADE6007FBE62 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +89,7 @@
 				3467D3801F4C0AF30052AFED /* GreedySnackMVC */,
 				3467D39A1F4C0AF30052AFED /* GreedySnackMVCTests */,
 				3467D37F1F4C0AF30052AFED /* Products */,
+				3467D3B71F4D758B0052AFED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +105,16 @@
 		3467D3801F4C0AF30052AFED /* GreedySnackMVC */ = {
 			isa = PBXGroup;
 			children = (
+				3467D3A61F4C14440052AFED /* GameMap.h */,
+				3467D3A71F4C14440052AFED /* GameMap.m */,
+				3467D3A81F4C14440052AFED /* NSMutableArray+QueueAdditions.h */,
+				3467D3A91F4C14440052AFED /* NSMutableArray+QueueAdditions.m */,
+				3467D3AA1F4C14440052AFED /* GreedySnack.h */,
+				3467D3AB1F4C14440052AFED /* GreedySnack.m */,
+				3467D3AC1F4C14440052AFED /* SnackNode.h */,
+				3467D3AD1F4C14440052AFED /* SnackNode.m */,
+				3467D3AE1F4C14440052AFED /* Fruit.h */,
+				3467D3AF1F4C14440052AFED /* Fruit.m */,
 				3467D3841F4C0AF30052AFED /* AppDelegate.h */,
 				3467D3851F4C0AF30052AFED /* AppDelegate.m */,
 				3467D3871F4C0AF30052AFED /* ViewController.h */,
@@ -89,6 +123,8 @@
 				3467D38D1F4C0AF30052AFED /* Assets.xcassets */,
 				3467D38F1F4C0AF30052AFED /* LaunchScreen.storyboard */,
 				3467D3921F4C0AF30052AFED /* Info.plist */,
+				26783DF2CEDB7BDA5DA36C1E /* GameView.h */,
+				26783BDF074AFE926C00701D /* GameView.m */,
 				3467D3811F4C0AF30052AFED /* Supporting Files */,
 			);
 			path = GreedySnackMVC;
@@ -105,10 +141,19 @@
 		3467D39A1F4C0AF30052AFED /* GreedySnackMVCTests */ = {
 			isa = PBXGroup;
 			children = (
-				3467D39B1F4C0AF30052AFED /* GreedySnackMVCTests.m */,
+				3467D3B51F4D3B090052AFED /* GreedySnakeTest.m */,
+				3467D3BA1F4E7C400052AFED /* FruitTest.m */,
 				3467D39D1F4C0AF30052AFED /* Info.plist */,
 			);
 			path = GreedySnackMVCTests;
+			sourceTree = "<group>";
+		};
+		3467D3B71F4D758B0052AFED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346C0B781F4EADE6007FBE62 /* libOCMock.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3467D3B21F4C14440052AFED /* GreedySnack.m in Sources */,
+				3467D3B01F4C14440052AFED /* GameMap.m in Sources */,
+				3467D3B11F4C14440052AFED /* NSMutableArray+QueueAdditions.m in Sources */,
 				3467D3891F4C0AF30052AFED /* ViewController.m in Sources */,
+				3467D3B41F4C14440052AFED /* Fruit.m in Sources */,
 				3467D3861F4C0AF30052AFED /* AppDelegate.m in Sources */,
 				3467D3831F4C0AF30052AFED /* main.m in Sources */,
+				3467D3B31F4C14440052AFED /* SnackNode.m in Sources */,
+				267837DAF062B87860F06111 /* GameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3467D39C1F4C0AF30052AFED /* GreedySnackMVCTests.m in Sources */,
+				3467D3BB1F4E7C400052AFED /* FruitTest.m in Sources */,
+				3467D3B61F4D3B090052AFED /* GreedySnakeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -343,6 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -356,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GA2DMW4FFR;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = GreedySnackMVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.william.GreedySnackMVC;
@@ -368,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GA2DMW4FFR;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = GreedySnackMVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.william.GreedySnackMVC;
@@ -380,8 +436,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = GA2DMW4FFR;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Include";
 				INFOPLIST_FILE = GreedySnackMVCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = my.william.GreedySnackMVCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreedySnackMVC.app/GreedySnackMVC";
@@ -393,8 +453,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = GA2DMW4FFR;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Include";
 				INFOPLIST_FILE = GreedySnackMVCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = my.william.GreedySnackMVCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreedySnackMVC.app/GreedySnackMVC";
@@ -420,6 +484,7 @@
 				3467D3A21F4C0AF30052AFED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3467D3A31F4C0AF30052AFED /* Build configuration list for PBXNativeTarget "GreedySnackMVCTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +493,7 @@
 				3467D3A51F4C0AF30052AFED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
